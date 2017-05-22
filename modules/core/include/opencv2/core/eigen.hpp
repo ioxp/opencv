@@ -53,6 +53,10 @@
 #pragma warning( disable: 4244 ) //conversion from '__int64' to 'int', possible loss of data
 #endif
 
+#if HAVE_EIGEN
+#include <Eigen/Core>
+#endif
+
 namespace cv
 {
 
